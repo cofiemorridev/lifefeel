@@ -1,0 +1,21 @@
+{
+  "name": "lifefeel",
+  "version": "1.0.0",
+  "description": "Life Feel - Multi-service booking marketplace",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:all": "./dev.sh",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.16"
+  }
+}
